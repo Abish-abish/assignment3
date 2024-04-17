@@ -44,4 +44,7 @@ body {
     max-width: 530px;
 }
 
-
+.social-img-container{
+    padding: 100px;
+    padding-bottom: 0;
+}
