@@ -1,0 +1,25 @@
+/* Author:Abish
+Date:17-4-2024 */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bs-primary: #664efc;
+}
+.btn-primary{
+    background-color: var(--bs-primary)!important;
+}
+.banner{
+    background-image: radial-gradient(
+    at top left,
+    #ebcbf7 0%,
+    #f9e9ec 15%,
+    #fdfcf9 30%
+  );
+ 
+}
+
+
