@@ -1,17 +1,35 @@
 /* Author:Abish
 Date:17-4-2024 */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 *{
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
+
 :root{
     --bs-primary: #664efc;
+    --bs-primary-rgb: #664efc;
 }
 .btn-primary{
     background-color: var(--bs-primary)!important;
 }
+.text-primary{
+    color: var(--bs-primary-rgb)!important;
+}
+body {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+
 .banner{
     background-image: radial-gradient(
     at top left,
@@ -20,6 +38,10 @@ Date:17-4-2024 */
     #fdfcf9 30%
   );
  
+}
+
+.banner h1{
+    max-width: 530px;
 }
 
 
