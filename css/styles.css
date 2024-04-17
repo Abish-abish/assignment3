@@ -1,0 +1,16 @@
+/* author abish */
+/* date:17-4-2024 */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+.custom-container{
+    margin: 10px 30px;
+}
+header{
+    display: flex;
+    justify-content:space-between ;
+}
