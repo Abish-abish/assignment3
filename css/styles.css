@@ -66,16 +66,6 @@ a{
     padding: 0px 60px;
     
 }
-
-@media screen and (max-width: 576px) {
-    .banner{
-        height: auto;
-    }
-    .social-img-container {
-        padding: 0px 30px;
-    }
-}
-
 @media screen and (max-width: 991px) {
     .banner{
         height: auto;
@@ -91,3 +81,15 @@ a{
     }
    
 }
+@media screen and (max-width: 576px) {
+    .banner{
+        height: auto;
+    }
+    .social-img-container {
+        padding: 0px 30px;
+    }
+    .vh-50{
+        height: auto;
+    }
+}
+
